@@ -1,0 +1,278 @@
+body{
+    margin:0px 0px 0px 50px;
+    padding:0px;
+    top: 0px;
+    left: 0px;
+    width: 1366px;
+    height: 1368px;
+    background: #F7F7F7 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+#parent-header{
+    position:relative;
+    top:0px;
+    width: 1366px;
+    height: 60px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 30px #7B7B7B29;
+    margin:0px;
+    padding:10px 0px 10px 80px;
+    opacity: 1;
+}
+#tasks{
+    display:inline;
+    text-align: left;
+    font-size:40px;
+    color:#424242;
+    font-weight: bold;
+
+}
+#lists{
+    display:inline;
+    text-align: left;
+    font-size:40px;
+    color:#00A5EC;
+    padding-left: 10px;
+    font-weight: bold;
+}
+#circle{
+    display:inline;
+
+}
+#add-new-task{
+    display:inline;
+    position:relative;
+    bottom:10px;
+    font-size: 26px;
+    font-weight: 100;
+    padding-left:10px;
+}
+#add-new{
+    position:relative;
+    top: 50px;
+    left: 1075px;
+}
+.parent-container{
+    display:flex;
+    height:800px;
+    width: 1366px;
+    flex-wrap:wrap;
+    position:relative;
+    top:80px;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: space-around;
+}
+.card{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #EDEDED;
+    border-radius: 10px;
+    opacity: 1;
+    width: 352px;
+    height: 360px;
+}
+.card-header{
+    color:#00A5EC;
+    font-size:24px;
+    font-weight: 300;
+    border-bottom-width: 20px;
+    border-bottom:1px solid #EDEDED;
+    padding:40px 0px 40px 20px;
+    margin:0px;
+}
+h4{
+    margin:0px;
+    padding:0px;
+}
+.card-item{
+    padding:10px 0px 10px 20px;
+    margin-top:10px;
+}
+.check-box{
+    padding:2px;
+    display:relative;
+    top:10px;
+}
+.card1-text{
+    text-align: left;
+    font-size:21px;
+    letter-spacing: 0px;
+    color: #C2C2C2;
+    opacity: 1;
+    text-decoration: line-through;
+    position:relative;
+    bottom:8px;
+    padding:5px;
+}
+.card2-text{
+    text-align: left;
+    font-size:21px;
+    letter-spacing: 0px;
+    color: #424242;
+    opacity: 1;
+    position:relative;
+    bottom:8px;
+    padding:5px;
+}
+.card-content{
+    margin-top:30px;
+}
+.notshow{
+    filter:opacity(50%);
+    -webkit-filter:opacity(50%);
+}
+
+.Rectangle-1{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 20px #67676729;
+    border: 1px solid #EDEDED;
+    border-radius: 10px;
+    opacity: 1;
+    position:absolute;
+    top: 184px;
+    left: 433px;    
+    width: 500px;
+    height: 250px;
+
+}
+.Rectangle-header{
+    text-align: left;
+    font-size: 26px;
+    font-weight:300;
+    letter-spacing: 0px;
+    color: #404040;
+    opacity: 1;
+    margin-left:20px;
+    padding:10px;
+    border-bottom: 2px solid #F7F7F7;
+}
+.add-task-button{
+    background: #00A5EC;
+    border-radius: 4px;
+    opacity: 1;
+    color:white;
+    display:block;
+    padding:10px;
+    width: 180px;
+    height: 48px;
+    position:relative;
+    top:60px;
+    left:300px;
+    border:0px;
+    font-size: 21px;   
+}
+.add-task-item{
+    position:relative;
+    top:30px;
+    left:20px;
+    background: #F7F7F7 0% 0% no-repeat padding-box;
+    border: 1px solid #EDEDED;
+    border-radius: 4px;
+    opacity: 1;
+    width: 460px;
+    height: 40px;
+}
+p{
+    font-size:20px;
+    text-align: left;
+}
+span{
+    position:relative;
+    left:290px;
+    color:#858585;
+    opacity: 1px;
+    font-size: 25px;
+}
+@media  screen and (max-width:360px) and (max-height:760px){
+    body{
+        /* background-color: blue; */
+        margin:0px;
+        width:360px;
+        height: 1282px;
+    }
+    .parent-container{
+        flex-direction: column;
+        width:360px;
+        height:2000px;
+        position: relative;
+        top:40px;
+        display:flex;
+        flex-wrap:wrap;
+        justify-content: space-around;
+        align-items: center;
+        align-content: space-around;
+    }
+    #parent-header{
+        width: 360px;
+        height:30px;
+        margin:0px;
+        padding:12px 0px 12px 12px;
+        display:inline-block;
+    }
+    .card-header{
+        font-size:21px;
+        font-weight: bold;
+    }
+    #tasks{
+        font-size:29px;
+    }
+    #lists{
+        font-size:29px;
+        padding-left: 5px;
+    }
+    #add-new{
+        position:relative;
+        top: 30px;
+        left: 153px;
+    }
+    #add-new-task{
+        display:none;
+    }
+    .card{
+        width: 336px;
+        height: 360px;
+    }
+    
+    .Rectangle-1{
+        width: 340px;
+        height: 250px;
+        position: absolute;
+        left:0px;
+        margin:12px 0px 12px 12px;
+    }
+    h3{
+        font-size:18px;
+    }
+    .add-task-item{
+        width: 300px;
+        height: 46px;
+
+    }
+    .add-task-item:hover{
+        box-shadow:1px 1px 1px 1px #00A5EC,-1px -1px 1px 1px #00A5EC;
+    }
+    .add-task-button{
+        position:relative;
+        left: 140px;
+        width: 180px;
+        height: 48px;
+        font-size:16px;
+    }
+    
+    span{
+        font-size:15px;
+        position: relative;
+        left:140px;
+    }
+    p{
+        font-size:16px;
+    }
+    .card1-text{
+        font-size:18px;
+    }
+    .card2-text{
+        font-size:18px;
+    }
+ 
+
+}
