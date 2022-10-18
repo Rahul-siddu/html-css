@@ -1,0 +1,139 @@
+body{
+    width: 1366px;
+    height: 1368px;
+    background: #F7F7F7 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin-top:5px;
+}
+#header{
+    position:relative;
+    top:0px;
+    background-color: white;
+    box-shadow: 0px 3px 30px #7B7B7B29;
+    width:100%;
+    
+}
+#header-tasks{
+    display:inline-block;
+    font-size:40px;
+    font-weight: bold;
+    color: #424242;
+    text-align: left;
+    position:relative;
+    left:50px;
+    margin: 5px 0px 5px 0px;
+    padding:10px 0px 10px 0px;
+
+}
+h1{
+    margin:0px;
+}
+#header-lists{
+    display:inline-block;
+    font-size:40px;
+    font-weight: bold;
+    color: #00A5EC;
+    text-align: left;
+    position:relative;
+    left:50px;
+    margin: 5px 0px 5px 0px;
+    padding:10px 0px 10px 10px;
+}
+#add-task{
+    position:relative;
+    left: 1100px;
+    top: 30px;
+    width: 215px;
+    margin:0px;
+}
+#circle{
+    display: inline-block;
+}
+#add-task-text{
+    display:inline-block;
+    position:absolute;
+    bottom:2px;
+    margin:0px;
+    padding:5px;
+    display: inline-block;
+    color: #424242;
+    opacity: 1;
+    text-align: left;
+    font-size:22px;
+    font-weight: 300;
+}
+.parent{
+    height: 800px;
+    width:1300px;
+    display:flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items:flex-start;
+    align-content: space-evenly;
+    text-align:center;
+    position: relative;
+    top:80px;
+    left:10px;
+    
+
+}
+.card{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #EDEDED;
+    border-radius: 10px;
+    opacity: 1;
+    width: 352px;
+    height:360px;
+}
+.card:hover{
+    box-shadow: 1px 1px 10px #67676729 ,-1px -1px 10px #67676729;
+}
+.card-header{
+    color: #00A5EC;
+    text-align: left;
+    padding:10px 0px 0px 10px;
+    margin:5px 0px 5px 5px;
+    border-bottom:1px solid #EDEDED;
+}
+
+.card-item{
+    display: block;
+    margin:5px 0px 5px 5px;
+    padding:10px 0px 10px 10px;
+    text-align: left;
+}
+.card-content{
+    margin-top:30px;
+}
+.card1-text{
+    text-align: left;
+    font-size:21px;
+    letter-spacing: 0px;
+    color: #C2C2C2;
+    opacity: 1;
+    text-decoration: line-through;
+    position:relative;
+    bottom:8px;
+    padding:5px;
+}
+.card2-text{
+    text-align: left;
+    font-size:21px;
+    letter-spacing: 0px;
+    color: #424242;
+    opacity: 1;
+    position:relative;
+    bottom:8px;
+    padding:5px;
+    
+
+}
+.check-box{
+    padding:2px;
+    display:relative;
+    top:10px;
+}
+h3{
+    font-size:20px;
+}
