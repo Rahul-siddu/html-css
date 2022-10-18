@@ -220,6 +220,10 @@ span{
         font-size:29px;
         padding-left: 5px;
     }
+    .notshow{
+        filter:opacity(50%);
+        -webkit-filter:opacity(50%);
+    }
     #add-new{
         position:relative;
         top: 30px;
